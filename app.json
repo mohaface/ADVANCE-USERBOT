@@ -1,0 +1,34 @@
+{
+    "name": "Rocky Userbot",
+    "description": "An first Telegram Userbot with multi Clients for Spamming or Mass.",
+    "keywords": ["pyrogram", "userbot"],
+    "repository": "https://github.com/ROCKY-D3V/ADVANCE-USERBOT",
+  "stack": "container",
+    "env": {
+        "STRING_SESSION1": {
+            "description": "Fill there an string session",
+            "required": true
+        },
+        "MONGO_URL": {
+            "description": "Fill there an mongo database from mongodb.com",
+            "required": true,
+            "value": ""
+        },
+        "SUDO_USERS": {
+            "description": "Fill there your I'd ",
+            "required": true,
+            "value": "6545714937"
+        },
+        "OWNER_ID": {
+            "description": "Fill there your I'd ",
+            "required": true,
+            "value": "6664555866"
+        },
+        "BOT_TOKEN": {
+            "description": "fill with your bot token get from @BotFather on telegram",
+            "required": true,
+            "value": ""
+        }
+
+    }
+  }
