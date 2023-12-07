@@ -24,8 +24,8 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 
 from config import GIT_TOKEN, REPO_URL, BRANCH
-HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
+HEROKU_API_KEY = getenv("HEROKU_API_KEY", "fcbdd228-c381-404d-8b5f-c39b23f69f9b")
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "mafiauserbot")
 
 from Rocky.modules.help import add_command_help
 HAPP = None
@@ -40,9 +40,9 @@ XCB = [
     "git",
     "heroku",
     "push",
-    str(HEROKU_API_KEY),
+    str(fcbdd228-c381-404d-8b5f-c39b23f69f9b),
     "https",
-    str(HEROKU_APP_NAME),
+    str(mafiauserbot),
     "HEAD",
     "main",
 ]
